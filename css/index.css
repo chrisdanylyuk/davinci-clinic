@@ -72,8 +72,8 @@ header .top-menu .top-menu-item  {
      }  
 
 .reception-with-paragraph {
-    display: grid;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 }
 
@@ -105,20 +105,21 @@ header .banner {
     }
 
     .reception-with-paragraph {
-        max-width: 980px;
-        display: grid;
-        grid-template-columns: 45% 55%;
-        grid-column-gap: 5%;
-    }
-
-    .paragraph {
-        text-align: justify;
-        font-size: 22px;
-        color: var(--main-color);
+        display: flex;
+        justify-content: space-around;
         align-items: center;
     }
 
-    .reception {}
+    .paragraph {
+        max-width: 370px;
+        text-align: justify;
+        font-size: 22px;
+        color: var(--main-color);
+    }
+
+    .reception {
+        max-width: 350px;
+    }
         
 
     .contact-block {
