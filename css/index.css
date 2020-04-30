@@ -66,13 +66,10 @@ header nav .top-menu {
     margin: 0;
     }
 
-header .top-menu .top-menu-item {
+header .top-menu .top-menu-item .logo {
     margin-top: -10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-content: space-around;
-    justify-content: center;
     }  
 }
 
