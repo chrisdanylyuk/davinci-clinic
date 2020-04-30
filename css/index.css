@@ -56,6 +56,10 @@ header nav {
     display: flex;
     align-items: center;
     }
+ 
+ul {
+    flex-wrap: wrap;
+}
 
 header nav .top-menu {
     flex: 1;
