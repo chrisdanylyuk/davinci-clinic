@@ -29,6 +29,7 @@ header .banner h1 nav .logo {
 }
 .logo {
     color: var(--main-color);
+    font-size: 30px;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -38,7 +39,7 @@ header .banner h1 nav .logo {
 header nav .top-menu {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 header nav .top-menu-item {
