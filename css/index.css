@@ -25,9 +25,9 @@ header .banner h1 nav .logo {
 .logo {
     color: var(--main-color);
     font-size: 24px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     }
 
@@ -52,7 +52,7 @@ header nav .top-menu-item {
     opacity: 0.5;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
 header nav {
     display: flex;
     align-items: center;
