@@ -16,6 +16,9 @@ body {
     max-width: 980px;
     margin: auto;
 }
+header {
+    background-size: 100%;
+}
 
 header .banner h1 nav .logo {
     font-family: 'PT Serif', serif;
@@ -57,20 +60,27 @@ header nav {
     align-items: center;
     }
  
-ul .logo {
+ul {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-header nav .top-menu {
+header nav .top-menu .logo {
     flex: 1;
     margin: 0;
     }
 
-header .top-menu .top-menu-item .logo {
+header .top-menu .top-menu-item  {
     margin-top: -10px;
     display: flex;
     align-content: space-around;
-    }  
+    flex-wrap: wrap;
+        }  
+
+.reception-with-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+}
 }
 
 header .banner {
