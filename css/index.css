@@ -57,7 +57,7 @@ header nav {
     align-items: center;
     }
  
-ul {
+ul .logo {
     flex-wrap: wrap;
 }
 
@@ -97,21 +97,30 @@ header .banner {
         display: flex;
         justify-content: center;
         margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .reception-with-paragraph {
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
     }
 
     .paragraph {
         max-width: 370px;
         text-align: justify;
         margin-left: 30px;
-        float: right;
-        margin-top: 50px;
-        margin-right: 50px;
         font-size: 22px;
         color: var(--main-color);
     }
 
     .reception {
         max-width: 350px;
+        }
+
+    .contact-block {
+        max-width: 980px;
+        border-radius: 15px;
+        background-color: rgb(197, 195, 195);
         margin-top: 50px;
-        margin-left: 55px;
     }
