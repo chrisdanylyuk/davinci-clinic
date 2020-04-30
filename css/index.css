@@ -107,6 +107,7 @@ header .banner {
         margin-top: 50px;
         margin-right: 50px;
         font-size: 22px;
+        color: var(--main-color);
     }
 
     .reception {
