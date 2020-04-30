@@ -1,45 +1,101 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
     font-family: 'PT Serif', serif;
+    --main-color: #444444;
+    --second-color: #606060;
+    --third-color: #ffffff;
 }
 
-.icon-teeth {
-    float: left;
-    margin-right: 25px;
-    margin-top: -15px;
-}
-
-.name-clinic {
-float: left;
-margin-top: 0;
-color: #444444;
-}
-
-.horizontal-menu {
-    list-style: none;
+h1, img, h2, ul, li, a {
     margin: 0;
-    padding-left: 0;
-    margin-top: 25px;
-    margin-right: auto;
-    }
+    padding: 0;
+}
 
-.horizontal-menu-list {
-    float: left;
-    }
-  
-.horizontal-menu-item {
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .banner h1 nav .logo {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.logo {
+    color: var(--main-color);
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align:  center;
+}
+
+header nav .top-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header nav .top-menu-item {
     font-size: 30px;
     text-decoration: none;
-    color: #606060;
-    padding:10px;
+    color: var(--second-color);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px solid transparent;
     }
-
-.horizontal-menu-item:hover {
-    background: #444444;
-    color: white;
+  
+ header nav .top-menu-item:hover {
+    background: var(--second-color);
+    color: var(--third-color);
     border-radius: 15px;
     opacity: 0.5;
 }
 
-.title_correct {
-    clear: left;
+@media (min-width: 500px) {
+header nav {
+    display: flex;
+    align-items: center;
+    }
+
+header nav .top-menu {
+    flex: 1;
+    margin: 0;
+    }
+
+header .top-menu .top-menu-item {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    }   
+
+    
 }
+
+header .banner {
+    background-image: url(../img/teeth-crush.jpg);
+    min-height: 551px;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+    .tagline {
+        font-size: 48px;
+        color: var(--second-color);
+        padding-left: 25px;
+        font-style: italic;
+    }
+
+    .name-clinic {
+        font-size: 48px;
+        font-style: italic;
+        color: var(--main-color);
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
