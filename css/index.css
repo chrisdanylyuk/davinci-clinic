@@ -128,10 +128,9 @@ header .top-menu .top-menu-item  {
     height: auto;
     }
 
-    .paragraph {
+    .paragraph .text-services {
     width: 73%;
-    height: auto;
-        
+    height: auto;  
     }
 
     .contact-block-nav {
@@ -152,7 +151,7 @@ header .top-menu .top-menu-item  {
         display: flex;
         flex-wrap: wrap; 
         }
-    }
+        }
 
 header .banner {
     background-image: url(../img/teeth-crush.jpg);
