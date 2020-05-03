@@ -88,6 +88,11 @@ header .top-menu .top-menu-item  {
     background-color: rgb(197, 195, 195);
  }
 
+ .istall-img-text {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
 }
 
 @media (min-width: 320px) {
@@ -125,6 +130,11 @@ header .top-menu .top-menu-item  {
         justify-content: center;
         border-radius: 15px;
         background-color: rgb(197, 195, 195);
+     }
+
+     .istall-img-text {
+        display: flex;
+        flex-wrap: wrap;
      }
     }
 
@@ -234,3 +244,31 @@ header .banner {
     .gmail-logo {
         max-width: 50px;
     }
+
+    .main-services {
+        background-color: rgb(197, 195, 195);
+        max-width: 980px;
+        border-radius: 20px;
+       }
+
+    .title-services {
+        text-align: center;
+        color: var(--main-color);
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    .install-img {
+        max-width: 150px;
+        }
+
+    .istall-img-text {
+        display: flex;
+              justify-content: center;
+             font-size: 24px;
+        color: var(--second-color);
+        text-align: center;
+    }
+
+    
+    
