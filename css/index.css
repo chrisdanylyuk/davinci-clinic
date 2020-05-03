@@ -72,12 +72,12 @@ header nav .top-menu .logo {
 
 header .top-menu .top-menu-item  {
     margin-top: -10px;
-     }  
+    }  
 
 .reception-with-paragraph {
     display: flex;
     flex-wrap: wrap;
-}
+    }
 
  .contact-block-nav {
     display: grid;
@@ -103,7 +103,7 @@ header .top-menu .top-menu-item  {
     header nav {
         display: flex;
         align-items: center;
-        }
+    }
      
     ul {
         flex-wrap: wrap;
@@ -112,7 +112,7 @@ header .top-menu .top-menu-item  {
     header nav .top-menu .logo {
         flex: 1;
         margin: 0;
-        }
+    }
     
     header .top-menu .top-menu-item  {
         margin-top: -10px;
@@ -124,13 +124,13 @@ header .top-menu .top-menu-item  {
     }
 
     .reception {
-    width: 73%;
-    height: auto;
+        width: 73%;
+        height: auto;
     }
 
     .paragraph .text-services {
-    width: 73%;
-    height: auto;  
+        width: 73%;
+        height: auto;  
     }
 
     .contact-block-nav {
@@ -150,8 +150,8 @@ header .top-menu .top-menu-item  {
      .four-services {
         display: flex;
         flex-wrap: wrap; 
-        }
-        }
+    }
+    }
 
 header .banner {
     background-image: url(../img/teeth-crush.jpg);
@@ -163,146 +163,145 @@ header .banner {
     align-items: center;
     }
 
-    .tagline {
-        font-size: 48px;
-        color: var(--second-color);
-        padding-left: 30px;
-        font-style: italic;
-    }
+.tagline {
+    font-size: 48px;
+    color: var(--second-color);
+    padding-left: 30px;
+    font-style: italic;
+}
 
-    .name-clinic {
-        font-size: 46px;
-        font-style: italic;
-        color: var(--main-color);
-        display: flex;
-        justify-content: center;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
+.name-clinic {
+    font-size: 46px;
+    font-style: italic;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
-    .reception-with-paragraph {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+.reception-with-paragraph {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-    .paragraph {
-        max-width: 370px;
-        text-align: justify;
-        font-size: 22px;
-        color: var(--main-color);
-    }
+.paragraph {
+    max-width: 370px;
+    text-align: justify;
+    font-size: 22px;
+    color: var(--main-color);
+}
 
-    .reception {
-        max-width: 350px;
-    }
+.reception {
+     max-width: 350px;
+}
         
+.contact-block {
+    max-width: 980px;
+    border-radius: 15px;
+    background-color: rgb(197, 195, 195);
+    margin-top: 50px;
+}
 
-    .contact-block {
-        max-width: 980px;
-        border-radius: 15px;
-        background-color: rgb(197, 195, 195);
-        margin-top: 50px;
-            }
+.contact-block-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: var(--main-color);
+}
 
-    .contact-block-nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        text-align: center;
-        color: var(--main-color);
-    }
-
-    .location-img {
-        display: block;
-        margin: auto;
-        margin-top: 10px;
-           }
-
-    .contacts-button {
-        border: 1px solid var(--main-color);
-        color: var(--main-color);
-        border-radius: 5px;
-        margin-bottom: 10px;
-    }
-
-    .contacts-button:hover {
-        border: 1px solid var(--main-color);
-        background-color: var(--second-color);
-        color: var(--third-color);
-        border-radius: 5px;
-        margin-bottom: 10px;
-    }
-
-    .telephone-img {
-        display: block;
-        margin: auto;
-    margin-top: 10px;
-    }
-
-    .clock-img {
+.location-img {
     display: block;
     margin: auto;
     margin-top: 10px;
-    }
+}
 
-    footer {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 10px;
-    }
+.contacts-button {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 
-    .socialmedia-logo {
-        max-width: 45px;
-    }
+.contacts-button:hover {
+    border: 1px solid var(--main-color);
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 
-    .gmail-logo {
-        max-width: 50px;
-    }
+.telephone-img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
 
-    .main-services {
-        background-color: rgb(197, 195, 195);
-        max-width: 980px;
-        border-radius: 20px;
-       }
+.clock-img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
 
-    .title-services {
-        text-align: center;
-        color: var(--main-color);
-        font-size: 36px;
-        padding-top: 20px;
-    }
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-    .install-img {
-        max-width: 150px;
-        padding-top: 20px;
-        }
+.socialmedia-logo {
+    max-width: 45px;
+}
 
-    .istall-img-text {
-        display: flex;
-        justify-content: center;
-        font-size: 24px;
-        color: var(--second-color);
-        text-align: center;
-    }
+.gmail-logo {
+    max-width: 50px;
+}
 
-    .four-services {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border: 1px solid var(--main-color);
-        border-radius: 20px;
-        margin: 30px 0 30px 0;
-    }
+.main-services {
+    background-color: rgb(197, 195, 195);
+    max-width: 980px;
+    border-radius: 20px;
+}
+
+.title-services {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.install-img {
+    max-width: 150px;
+    padding-top: 20px;
+}
+
+.istall-img-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--second-color);
+    text-align: center;
+}
+
+.four-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+    margin: 30px 0 30px 0;
+}
     
-    .one-service {
-        width: 420px;
-        font-size: 22px;
-        padding: 20px 0 20px 30px;
-        color: rgb(32, 32, 32);
-        text-align: center;
-        }
+.one-service {
+    width: 420px;
+    font-size: 22px;
+    padding: 20px 0 20px 30px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+}
 
-        .text-services {
-text-align: start;
-        }
+.text-services {
+    text-align: start;
+}
