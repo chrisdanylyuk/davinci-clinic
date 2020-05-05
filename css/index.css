@@ -350,7 +350,7 @@ footer {
 }
 
 .doctor-button {
-    margin: 20px 0 30px 0;
+    margin: 40px 0 40px 0;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -363,3 +363,7 @@ footer {
     background-color: var(--second-color);
     color: var(--third-color);
 }
+
+.forward-work form {
+    margin: auto;
+  }
