@@ -215,7 +215,7 @@ header .banner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    color: var(--main-color);
+    color: rgb(32, 32, 32);
 }
 
 .location-img {
@@ -226,8 +226,9 @@ header .banner {
 
 .contacts-button {
     border: 1px solid var(--main-color);
-    color: var(--main-color);
+    color: rgb(32, 32, 32);
     border-radius: 5px;
+    padding: 5px 5px 5px 5px;
     margin-bottom: 10px;
 }
 
