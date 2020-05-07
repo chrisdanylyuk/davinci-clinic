@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'PT Serif', serif;
+    --main-color: #444444;
+    --second-color: #606060;
+    --third-color: #ffffff;
+}
+
+h1, img, h2, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .banner h1 nav .logo {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.logo {
+    color: var(--main-color);
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: center;
+    }
+
+header nav .top-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+}
+
+header nav .top-menu-item {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--second-color);
+    padding: 13px;
+    border-radius: 15px solid transparent;
+    }
+  
+ header nav .top-menu-item:hover {
+    background: var(--second-color);
+    color: var(--third-color);
+    border-radius: 15px;
+    opacity: 0.5;
+}
+li {
+    justify-content: space-around;
+}
+
+@media (min-width: 400px) {
+    header nav {
+        display: flex;
+        align-items: center;
+        }
+     
+    ul {
+        flex-wrap: wrap;
+    }
+    
+    header nav .top-menu .logo {
+        flex: 1;
+        margin: 0;
+        }
+    
+    header .top-menu .top-menu-item  {
+        margin-top: -10px;
+        } 
+    } 
+    
+             
+    @media (min-width: 320px) {
+        header nav {
+            display: flex;
+            align-items: center;
+        }
+         
+        ul {
+            flex-wrap: wrap;
+        }
+        
+        header nav .top-menu .logo {
+            flex: 1;
+            margin: 0;
+        }
+        
+        header .top-menu .top-menu-item  {
+            margin-top: -10px;
+             } 
+            } 
+        
+footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+.socialmedia-logo {
+      max-width: 45px;
+}
+    
+.gmail-logo {
+        max-width: 50px;
+    }
