@@ -5,54 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/tooth.png">
-    <title>Блог</title>
+    <title>Контакти</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/contacts.css">
-    </head>
+</head>
 
 <body>
     <header>
         <nav>
-        <div class="logo">
-            <img src="img/tooth.png" alt="Іконка зуба чорного кольору на білому фоні">
-            <h1>DaVinci clinic</h1>
+            <div class="logo">
+                <img src="img/tooth.png" alt="Іконка зуба чорного кольору на білому фоні">
+                <h1>DaVinci clinic</h1>
             </div>
-                    <ul class="top-menu">
-                    <li><a class="top-menu-item" href="index.html">Головна</a></li>
-                    <li><a class="top-menu-item" href="services.html">Послуги</a></li>
-                    <li><a class="top-menu-item" href="doctors.html">Лікарі</a></li>
-                    <li><a class="top-menu-item" href="blog.html">Блог</a></li>
-                    <li><a class="top-menu-item" href="contacts.html">Контакти</a></li>
-                </ul>
-            </nav>
+            <ul class="top-menu">
+                <li><a class="top-menu-item" href="index.html">Головна</a></li>
+                <li><a class="top-menu-item" href="services.html">Послуги</a></li>
+                <li><a class="top-menu-item" href="doctors.html">Лікарі</a></li>
+                <li><a class="top-menu-item" href="blog.html">Блог</a></li>
+                <li><a class="top-menu-item" href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div>
-            <img src="img/teeth-crush.jpg" style="width: 1300px" alt="Зуб на сірому фоні розлітається на шматочки">
-            <img src="img/location.png" alt="Чорна іконка локації">
-            <label><b>Ми знаходимось:</b><br>м. Львів, вул. Зелена, 113<br>(вхід з двору)</label>
+        <div class="contacts-banner">
             <nav>
+                <div class="contacts-button-item">
+                    <img class="location-img" src="img/location.png" alt="Чорна іконка локації">
+                    <label><b>Ми знаходимось:</b><br>м. Львів, вул. Зелена, 113<br>(вхід з двору)</label>
+                </div>
                 <form action="map.html" target="_blank">
-                    <button>Карта проїзду</button>
+                    <button class="contacts-button">Карта проїзду</button>
                 </form>
-                <img src="img/telephone.png" alt="Чорна іконка телефону">
-                <label><b>Контакти:</b><br>0676472292 - Дмитро Васильович <br>0935155266 - Наталія Василівна</label>
+                <div class="contacts-button-item">
+                    <img class="location-img" src="img/telephone.png" alt="Чорна іконка телефону">
+                    <label><b>Контакти:</b><br>0676472292<br>0935155266</label>
+                </div>
                 <form action="callme.html" target="_blank">
-                    <button>Передзвоніть мені</button>
+                    <button class="contacts-button">Передзвоніть мені</button>
                 </form>
-                <img src="img/clock.png" alt="орна іконка годинника">
-                <label><b>Графік роботи:</b><br>Пн - Пт: 10:00 - 20:00<br>Сб - Нд: вихідні</label>
+                <div class="contacts-button-item">
+                    <img class="location-img" src="img/clock.png" alt="орна іконка годинника">
+                    <label><b>Графік роботи:</b><br>Пн - Пт: 10:00 - 20:00<br>Сб - Нд: вихідні</label>
+                </div>
                 <form action="recordtothedoctor.html" target="_blank">
-                    <button>Записатись на прийом</button>
+                    <button class="contacts-button">Записатись на прийом</button>
                 </form>
             </nav>
         </div>
-        <div>
+        <div class="title-feedback">
             <h2>Залиште Ваш відгук</h2>
         </div>
-        <div>
+        <div class="feedback">
             <form action="https://formspree.io/xeqrjkvd" method="POST">
-                <label>Введіть Ваше ім'я <input type="text" name="client-firstname" required
+                <label>Введіть Ваше ім'я<input type="text" name="client-firstname" required
                         placeholder="Введіть Ваше ім'я"></label>
                 <br>
                 <label>Введіть Ваше прізвище <input type="text" name="client-lastname" required
@@ -79,12 +84,12 @@
     </main>
     <br>
     <footer>
-        <a href="https://www.facebook.com/Da-Vinci-Clinic-2514512778593921/"><img src="img/facebook.png"
-                alt="Логотип Фейсбук"></a>
-        <a href="https://instagram.com/da_vinci.clinic?igshid=1wo3fdsea0v6e"><img src="img/instagram.png"
-                alt="Логотип Інстарграм"></a>
-        <a href="mailto:davinci.dentistryclinic@gmail.com"><img src="img/gmail.png" alt="Логотип Джімейл"></a>
-        <br>
+        <a href="https://www.facebook.com/Da-Vinci-Clinic-2514512778593921/"><img class="socialmedia-logo"
+                src="img/facebook.png" alt="Логотип Фейсбук"></a>
+        <a href="https://instagram.com/da_vinci.clinic?igshid=1wo3fdsea0v6e"><img class="socialmedia-logo"
+                src="img/instagram.png" alt="Логотип Інстарграм"></a>
+        <a href="mailto:davinci.dentistryclinic@gmail.com"><img class="gmail-logo" src="img/gmail.png"
+                alt="Логотип Джімейл"></a>
         © 2020 DaVinci clinic
     </footer>
 </body>
