@@ -63,7 +63,7 @@ padding: 20px 0 20px 85px;
 }
 
 .form-element {
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 .label-element {
@@ -75,14 +75,14 @@ padding: 20px 0 20px 85px;
 }
 
 input, textarea {
-    width: 280px;
+    width: 295px;
 }
 
 option {
-    width: 260px;
+    width: 275px;
     font-size: 14px;
 }
 .input_button {
-    width: 142px;
+    width: 150px;
     float: left;
-}
+    }
