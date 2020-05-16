@@ -1,5 +1,7 @@
 body {
     max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
