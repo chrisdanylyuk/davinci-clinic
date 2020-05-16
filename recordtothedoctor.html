@@ -5,38 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/tooth.png">
     <title>Записатись на прийом до лікаря</title>
+    <link rel="stylesheet" href="css/record.css">
 </head>
 <body>
     <header>
         <h1>Записатись на прийом до лікаря</h1>
     </header>
     <main>
+        <div class="recocd-block">
         <form action="https://formspree.io/xeqrjkvd" method="POST">
-            <label>Введіть Ваше ім'я <input type="text" name="client-firstname" required
+            <label class="label-record">Ваше ім'я <input type="text" name="client-firstname" required
                     placeholder="Введіть Ваше ім'я"></label>
             <br>
-            <label>Введіть Ваше прізвище <input type="text" name="client-lastname" required
+            <label class="label-record">Ваше прізвище <input type="text" name="client-lastname" required
                     placeholder="Введіть Ваше прізвище"></label>
             <br>
-            <label>Введіть Ваш телефон <input type="tel" name="client-tel" required
+            <label class="label-record">Ваш телефон <input type="tel" name="client-tel" required
                     placeholder="+38000-000-00-00"></label>
             <br>
-            <label> Оберіть лікаря <select name="doctor" id="doctor" size="2" required>
+            <label class="label-record"> Оберіть лікаря <select name="doctor" id="doctor" size="2" required>
                     <option value="Dmytro Vasylyovych">Дмитро Васильович</option>
                     <option value="Nataliya Vasylivna">Наталія Василівна</option>
                 </select> </label>
             <br>
-            <label>Виберіть бажану дату прийому<input type="date" name="date-to-visit-clinic"></label>
+            <label class="label-record">Бажана дата прийому <input type="date" name="date-to-visit-clinic"></label>
             <br>
-            <label>Виберіть бажаний час прийому<input type="time" name="time-to-visit-clinic" value="18:00" min="10:00"
+            <label class="label-record">Бажаний час прийому<input type="time" name="time-to-visit-clinic" value="18:00" min="10:00"
                     max="20:00"></label>
             <br>
-            <label>Коментар <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20"
+            <label class="label-record">Коментар <textarea class="textarea" name="textarea" id="textarea" placeholder="Ваш коментар" cols="20"
                     rows="10"></textarea></label>
             <br>
-            <label><input type="submit"></label>
-            <label><input type="reset"></label>
+            <br>
+            <label><input class="button" type="submit"></label>
+            <label><input class="button" type="reset"></label>
         </form>
+        </div>
     </main>
 </body>
 </html>
