@@ -27,11 +27,13 @@ input, option {
     font-size: 17px;
     text-align: center;
     width: 220px;
+    border: 1px solid grey;
 }
 
 textarea {
     width: 280px;
     font-size: 17px;
+    border: 1px solid grey;
 }
 
 .button {

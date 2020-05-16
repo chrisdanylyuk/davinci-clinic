@@ -77,13 +77,26 @@ padding: 20px 0 20px 85px;
 
 input, textarea {
     width: 295px;
+    font-size: 17px;
+    border: 1px solid grey;
+
 }
 
 option {
     width: 275px;
-    font-size: 14px;
+    font-size: 17px;
 }
 .input_button {
     width: 150px;
     float: left;
+    border: 1px solid black;
+    color: rgb(32, 32, 32);
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 2px 2px 2px 2px;
     }
+
+.input_button:hover {
+    background-color: white;
+}
+
