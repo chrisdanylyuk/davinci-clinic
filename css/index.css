@@ -45,6 +45,7 @@
         min-height: 551px;
         background-position: center;
         background-size: cover;
+        border-radius: 20px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
