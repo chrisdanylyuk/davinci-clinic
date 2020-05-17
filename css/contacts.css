@@ -70,7 +70,6 @@ padding: 20px 0 20px 85px;
 .label-element {
     display: block;
     margin-top: 10px;
-    letter-spacing: 2px;
     font-size: 22px;
     color: rgb(32, 32, 32);
 }
@@ -86,6 +85,11 @@ option {
     width: 295px;
     font-size: 17px;
 }
+
+textarea {
+    height: 150px;
+}
+
 .input_button {
     width: 150px;
     float: left;
