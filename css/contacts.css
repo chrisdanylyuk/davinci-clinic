@@ -71,19 +71,19 @@ padding: 20px 0 20px 85px;
     display: block;
     margin-top: 10px;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(32, 32, 32);
 }
 
 input, textarea {
     width: 295px;
-    font-size: 17px;
+    font-size: 18px;
     border: 1px solid grey;
 
 }
 
 option {
-    width: 275px;
+    width: 295px;
     font-size: 17px;
 }
 .input_button {

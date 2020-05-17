@@ -1,5 +1,5 @@
 body {
-    max-width: 500px;
+    max-width: 450px;
 }
 
 h1 {
@@ -23,18 +23,20 @@ h1 {
 
 input {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     border: 1px solid grey;
+    width: 280px;
 }
 
 .button {
-    width: 150px;
+    width: 140px;
     border: 1px solid black;
     color: rgb(32, 32, 32);
     background-color: lightgrey;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .button:hover {
