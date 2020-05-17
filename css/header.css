@@ -42,7 +42,7 @@ header nav .top-menu-item {
     text-decoration: none;
     color: var(--second-color);
     padding: 13px;
-    border-radius: 15px solid transparent;
+    border-radius: 15px solid;
     }
   
  header nav .top-menu-item:hover {
