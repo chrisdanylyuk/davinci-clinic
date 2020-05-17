@@ -43,3 +43,31 @@ input {
     background-color: white;
 }
 
+.calc {
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.display {
+    margin: 15px 15px 25px 15px;
+    width: 150px;
+    font-size: 16px;
+}
+
+button {
+    border: 1px solid grey; 
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 5px;
+    width: 35px;
+    background-color: lightgrey;
+}
+
+button:hover {
+background-color: white;
+}
