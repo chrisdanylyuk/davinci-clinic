@@ -1,11 +1,10 @@
 body {
-    max-width: 500px;
+    max-width: 320px;
 }
 
 h1 {
     color: gray;
     text-align: center;
-    
 }
 
 .recocd-block {
@@ -14,35 +13,36 @@ h1 {
     margin-top: 20px;
     padding: 15px 15px 15px 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .label-record {
     font-size: 24px;
-    display: inline-block;
 }
 
 input, option {
     font-size: 17px;
-    text-align: center;
-    width: 220px;
+    text-align: left;
+    width: 280px;
     border: 1px solid grey;
 }
 
 textarea {
     width: 280px;
+    height: 150px;
     font-size: 17px;
     border: 1px solid grey;
 }
 
 .button {
-    width: 220px;
+    width: 280px;
     border: 1px solid black;
     color: rgb(32, 32, 32);
     background-color: lightgrey;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .button:hover {

@@ -57,6 +57,17 @@
         padding-left: 30px;
         font-style: italic;
     }
+
+    .time {
+        font-size: 30px;
+        font-style: italic;
+        color: var(--main-color);
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
     
     .name-clinic {
         font-size: 46px;
