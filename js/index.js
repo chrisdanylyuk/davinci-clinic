@@ -6,5 +6,5 @@ const options = {
     year: "numeric", month: "numeric",
     day: "numeric", hour: "2-digit", minute: "2-digit", second: "2-digit"
 };
-const showClock = () => clock.innerText = (new Date()).toLocaleTimeString("uk", options);
+const showClock = () => clock.innerText = 'Місцевий час ' + (new Date()).toLocaleTimeString("uk", options);
 setInterval(showClock, 1000);
